@@ -1,7 +1,7 @@
 <div align="center">
 
 <img
-  src="https://capsule-render.vercel.app/api?type=rect&height=220&section=header&text=GAURESH%20TAMBE&fontSize=48&fontAlignY=38&fontFamily=JetBrains%20Mono&animation=fadeIn&fontColor=F5F5F5&desc=AI%2FML%20ENGINEER%20%20%2F%2F%20BUILDER&descAlignY=58&descSize=15&color=0:080808,100:1C1C1C"
+  src="https://capsule-render.vercel.app/api?type=rect&height=210&section=header&text=GAURESH%20TAMBE&fontSize=48&fontAlignY=38&fontFamily=JetBrains%20Mono&animation=fadeIn&fontColor=F5F5F5&desc=AI%2FML%20ENGINEER%20%20%E2%80%A2%20%20BUILDER&descAlignY=58&descSize=15&color=0:080808,100:1C1C1C"
   width="100%"
   alt="Gauresh Tambe"
 />
@@ -9,246 +9,276 @@
 <br>
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=VT323&size=28&duration=2600&pause=1000&color=111111&center=true&vCenter=true&width=700&lines=BUILDING+AI+SYSTEMS;LEARNING+BY+SHIPPING;ALWAYS+ME+VS+ME."
-  alt="Terminal-style typing animation"
+  src="https://readme-typing-svg.demolab.com?font=VT323&size=28&duration=2600&pause=1000&color=111111&center=true&vCenter=true&width=680&lines=BUILDING+AI+SYSTEMS;EXPLORING+WHAT%27S+UNDER+THE+HOOD;LEARNING+BY+SHIPPING"
+  alt="Typing animation"
 />
 
 <br><br>
 
 <a href="https://gauresh.art">
-<img src="https://img.shields.io/badge/%2F%2F%20PORTFOLIO-111111?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/>
+<img src="https://img.shields.io/badge/PORTFOLIO-111111?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/>
 </a>
 &nbsp;
 <a href="https://github.com/GaureshArt">
-<img src="https://img.shields.io/badge/%2F%2F%20GITHUB-111111?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/GITHUB-111111?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 &nbsp;
-<a href="mailto:gaureshtambe25@gmail.com">
-<img src="https://img.shields.io/badge/%2F%2F%20CONTACT-111111?style=flat-square&logo=gmail&logoColor=white" alt="Contact"/>
+<a href="mailto:gauresh.art.ai@gmail.com">
+<img src="https://img.shields.io/badge/CONTACT-111111?style=flat-square&logo=gmail&logoColor=white" alt="Contact"/>
 </a>
 
 </div>
 
 <br>
 
----
+## `01 / currently`
 
 <div align="center">
 
-```text
-╭──────────────────────────────────────────────────────────────╮
-│                                                              │
-│   gauresh@github ~ $ whoami                                  │
-│                                                              │
-│   AI/ML engineer who likes building things from scratch.     │
-│                                                              │
-│   I work at the intersection of AI systems and software —   │
-│   turning ideas into tools, products, and experiments.       │
-│                                                              │
-╰──────────────────────────────────────────────────────────────╯
-```
+**I build software around AI.**
+
+<br>
+
+<sub>
+LLMs · RAG · Agents · AI Tooling · Backend Systems
+</sub>
+
+<br><br>
+
+<sub>
+Currently interested in the engineering underneath AI products —
+<br>
+the loops, tools, environments, retrieval and execution that make them work.
+</sub>
 
 </div>
 
-## `01 / NOW`
+<br>
 
-```text
-┌─ CURRENTLY
-│
-├── AI systems
-│   ├─ LLM applications
-│   ├─ RAG & retrieval
-│   ├─ Agentic workflows
-│   └─ AI developer tooling
-│
-├── SOFTWARE
-│   ├─ Python
-│   ├─ TypeScript
-│   ├─ Next.js
-│   └─ Backend / APIs
-│
-└── PHILOSOPHY
-    └─ build → break → learn → repeat
-```
+## `02 / selected builds`
 
----
+<table>
+<tr>
 
-## `02 / BUILDING`
+<td width="50%" valign="top">
 
 <div align="center">
 
-### `SADHAN`
+### ◉ SADHAN
 
-**A minimal AI harness built from scratch.**
+**MINIMAL AI HARNESS**
 
 </div>
 
-```text
-LOCAL MODEL
-     │
-     ▼
-┌───────────────┐
-│    SADHAN     │
-│               │
-│  LLM → bash   │
-│   ↑     │     │
-│   └─────┘     │
-│  observe      │
-│  → reason     │
-│  → execute    │
-└───────┬───────┘
-        │
-        ▼
-   REAL SYSTEM
-```
+A functional AI harness built from scratch to run local models
+through Ollama using a real bash-execution loop.
 
-A functional, non-class-based AI harness designed to run local
-models through Ollama using a real bash-execution loop.
-
-Currently tested with **Qwen3.5:4B via Ollama**.
-
-The goal isn't to hide the agent behind abstractions — it's to
-understand what actually makes an AI harness work.
-
-> `reason → execute → observe → repeat`
-
-**[→ Sadhan repository](https://github.com/GaureshArt/sadhan)** ·
-**[→ AI Harness Engineering](https://blog.gauresh.art/series/ai-harness-engineering)**
+The model can reason about a task, execute one bash command per
+turn, observe the result, and continue until completion or a hard limit.
 
 <br>
 
-### `DOCSY`
+`Python` `Ollama` `Qwen3.5` `Bash`
 
-**Headless RAG for React applications.**
+<br><br>
 
-`Next.js` `TypeScript` `LangChain` `Qdrant` `Gemini`
+<a href="https://github.com/GaureshArt/sadhan">
+<b>↗ Repository</b>
+</a>
 
-Semantic retrieval, reranking and streaming in a reusable component.
+&nbsp;&nbsp;·&nbsp;&nbsp;
 
-**[→ GitHub](https://github.com/GaureshArt)**
+<a href="https://blog.gauresh.art/series/ai-harness-engineering">
+<b>↗ Engineering series</b>
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+<div align="center">
+
+### ◈ DOCSY
+
+**HEADLESS RAG**
+
+</div>
+
+A reusable RAG component for React applications focused on
+documentation ingestion, semantic retrieval, reranking and
+streaming AI responses.
 
 <br>
 
-### `QUERY.FIT`
+`Next.js` `TypeScript` `LangChain` `Qdrant`
 
-**AI-native database assistant.**
+<br><br>
+
+<a href="https://github.com/GaureshArt">
+<b>↗ Repository</b>
+</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+<div align="center">
+
+### ⌗ QUERY.FIT
+
+**AI DATABASE ASSISTANT**
+
+</div>
+
+Natural-language database workflows that turn user intent into
+validated SQL, self-correct against schemas and safely execute queries.
+
+<br>
 
 `Next.js` `LangGraph` `SQL` `Supabase`
 
-Natural language → validated SQL → safe execution → visual results.
-
-**[→ GitHub](https://github.com/GaureshArt)**
-
----
-
-## `03 / STACK`
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,cpp,typescript,javascript,react,nextjs,nodejs,docker,postgres,supabase,git,github&perline=6" alt="Languages and tools"/>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/LLM%20SYSTEMS-111111?style=flat-square" alt="LLM Systems"/>
-<img src="https://img.shields.io/badge/RAG-111111?style=flat-square" alt="RAG"/>
-<img src="https://img.shields.io/badge/AGENTS-111111?style=flat-square" alt="Agents"/>
-<img src="https://img.shields.io/badge/AI%20TOOLING-111111?style=flat-square" alt="AI Tooling"/>
-<img src="https://img.shields.io/badge/OPEN%20SOURCE-111111?style=flat-square" alt="Open Source"/>
-
-</div>
-
----
-
-## `04 / ACTIVITY`
-
-<div align="center">
-
-### `CONTRIBUTION.LOG`
-
-<img
-  src="https://raw.githubusercontent.com/GaureshArt/gaureshart/output/github-contribution-grid-snake.svg"
-  alt="GitHub contribution snake"
-/>
-
 <br><br>
 
 <a href="https://github.com/GaureshArt">
-
-<img
-  src="https://streak-stats.demolab.com/?user=GaureshArt&theme=transparent&hide_border=true&background=FFFFFF00&ring=111111&fire=111111&currStreakLabel=111111&sideLabels=444444&currStreakNum=111111&sideNums=111111&dates=777777"
-  alt="GitHub contribution streak"
-/>
-
+<b>↗ Repository</b>
 </a>
 
-<br><br>
+</td>
 
-<a href="https://github.com/GaureshArt">
+<td width="50%" valign="top">
 
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=GaureshArt&bg_color=ffffff00&color=444444&line=111111&point=111111&area=true&hide_border=true&custom_title=CONTRIBUTION%20ACTIVITY"
-  width="96%"
-  alt="GitHub contribution activity"
-/>
+</td>
 
-</a>
+</tr>
+</table>
 
-</div>
+<br>
 
----
-
-## `05 / SIGNAL`
-
-```text
-╭──────────────────────────────────────────────╮
-│                                              │
-│   1,000+     LeetCode problems solved       │
-│   1800       highest contest rating         │
-│   9.32/10    engineering CGPA               │
-│   #14        Mumbai University rank         │
-│                                              │
-│   IBM ML     competition winner              │
-│   NPM        published developer tooling    │
-│                                              │
-╰──────────────────────────────────────────────╯
-```
-
----
-
-## `06 / FIND ME`
+## `03 / toolkit`
 
 <div align="center">
 
-<a href="https://gauresh.art">`gauresh.art`</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://github.com/GaureshArt">`github`</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="mailto:gaureshtambe25@gmail.com">`email`</a>
+<img
+  src="https://skillicons.dev/icons?i=python,cpp,typescript,javascript,react,nextjs,nodejs,fastapi,docker,postgres,supabase,git,github&perline=7"
+  alt="Technology stack"
+/>
+
+<br><br>
+
+<code>LLM SYSTEMS</code>
+&nbsp;&nbsp;
+<code>RAG</code>
+&nbsp;&nbsp;
+<code>AGENTIC WORKFLOWS</code>
+&nbsp;&nbsp;
+<code>VECTOR SEARCH</code>
+&nbsp;&nbsp;
+<code>APIs</code>
 
 </div>
 
 <br>
 
+## `04 / proof`
+
 <div align="center">
 
-```text
-$ git status
+<table>
+<tr>
 
-building.
-```
+<td align="center" width="25%">
 
-### `always me vs me.`
+### 1,000+
+
+LeetCode
+
+</td>
+
+<td align="center" width="25%">
+
+### 1800
+
+Contest Rating
+
+</td>
+
+<td align="center" width="25%">
+
+### 9.32
+
+CGPA / 10
+
+</td>
+
+<td align="center" width="25%">
+
+### #14
+
+University Rank
+
+</td>
+
+</tr>
+</table>
+
+<sub>
+IBM ML Competition · Published developer tooling · AI/ML projects
+</sub>
+
+</div>
+
+<br>
+
+## `05 / activity`
+
+<div align="center">
+
+<img
+  src="https://raw.githubusercontent.com/GaureshArt/GaureshArt/gh-pages/github-contribution-grid-snake.svg"
+  alt="GitHub contribution snake"
+  width="95%"
+/>
+
+</div>
+
+<br>
+
+## `06 / elsewhere`
+
+<div align="center">
+
+<a href="https://gauresh.art">
+<b>Portfolio</b>
+</a>
+
+&nbsp;&nbsp;·&nbsp;&nbsp;
+
+<a href="https://github.com/GaureshArt">
+<b>GitHub</b>
+</a>
+
+&nbsp;&nbsp;·&nbsp;&nbsp;
+
+<a href="https://blog.gauresh.art/">
+<b>Writing</b>
+</a>
+
+</div>
+
+<br><br>
+
+<div align="center">
 
 <sub>build → break → learn → repeat</sub>
 
-</div>
-
-<br>
-
-<div align="center">
+<br><br>
 
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&fontFamily=JetBrains%20Mono&color=0:111111,100:2A2A2A"
+  src="https://capsule-render.vercel.app/api?type=waving&height=90&section=footer&fontFamily=JetBrains%20Mono&color=0:111111,100:292929"
   width="100%"
   alt="Footer"
 />
